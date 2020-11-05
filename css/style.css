@@ -1,0 +1,100 @@
+.logo-text {
+  font-family: "Dancing Script", cursive;
+}
+
+.home-deals-images {
+  height: 50vh;
+}
+
+.black-friday-text {
+  text-align: center;
+  font-size: 120px;
+  font-style: italic;
+  text-shadow: 2px 2px 3px #252020;
+  margin-bottom: 0;
+}
+
+.black-friday-offer-text {
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 2px 2px 3px #252020;
+}
+
+.offer-text {
+  text-align: center;
+  font-size: 30px;
+  text-shadow: 1px 1px 2px #bbb7b7;
+}
+
+.price-text {
+  text-align: center;
+  font-size: 24px;
+  text-shadow: 1px 1px 2px #bbb7b7;
+}
+
+.card-menu-img {
+  width: 170px;
+  height: 170px;
+}
+
+.card-no-img {
+  width: 175px;
+  height: 175px;
+  background-image: url('/images/no-image.jpg');
+  background-size: cover;
+}
+
+/* About page styles */
+
+#showcase-about {
+  background: url("/images/team.jpg");
+  height: 50vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+}
+
+.card-img-contact {
+  margin-top: 10px;
+  width: 200px;
+  height: 200px;
+}
+
+.card-block {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+}
+
+.card-body {
+  width: 280px;
+  height: 23vh;
+}
+
+/* Contact Form */
+#contact-form .form-group {
+  margin-bottom: 20px;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px #dddddd solid;
+}
+
+#contact-form textarea {
+  height: 200px;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #f7c08a;
+}
