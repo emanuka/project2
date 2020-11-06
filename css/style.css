@@ -44,6 +44,11 @@
   background-size: cover;
 }
 
+.card-item-img {
+    width: 150px;
+    height: 150px;
+}
+
 /* About page styles */
 
 #showcase-about {
